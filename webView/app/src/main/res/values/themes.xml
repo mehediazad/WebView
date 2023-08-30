@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WebView" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Fullscreen" parent="Base.Theme.WebView">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:ignore="NewApi">shortEdges</item>
+    </style>
+
+    <style name="Theme.WebView" parent="Base.Theme.WebView">
+        <!-- Customize your theme here if needed -->
+    </style>
+
+    <style name="AppTheme.NoTitleBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here if needed -->
+    </style>
+
+</resources>
